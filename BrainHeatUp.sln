@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SseConnector", "SseConnecto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionMethodTest", "ActionMethodTest\ActionMethodTest.csproj", "{AE2975A2-CC4F-4542-B8C3-2EFE198825F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMapTest", "HashMapTest\HashMapTest.csproj", "{03E73EAD-8396-4916-A345-6B582F62AFF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{AE2975A2-CC4F-4542-B8C3-2EFE198825F5}.Release|x64.Build.0 = Release|Any CPU
 		{AE2975A2-CC4F-4542-B8C3-2EFE198825F5}.Release|x86.ActiveCfg = Release|Any CPU
 		{AE2975A2-CC4F-4542-B8C3-2EFE198825F5}.Release|x86.Build.0 = Release|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Debug|x64.Build.0 = Debug|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Debug|x86.Build.0 = Debug|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Release|x64.ActiveCfg = Release|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Release|x64.Build.0 = Release|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Release|x86.ActiveCfg = Release|Any CPU
+		{03E73EAD-8396-4916-A345-6B582F62AFF0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
