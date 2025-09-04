@@ -14,9 +14,9 @@ namespace CustomNodeClass
 
     class Node<T>
     {
-        public T? Data { get; set; }
-        public Node<T>? Next { get; set; }
-        public Node(T data, Node<T>? next = null)
+        public T Data { get; set; }
+        public Node<T> Next { get; set; }
+        public Node(T data, Node<T> next = null)
         {
             this.Data = data;
             this.Next = next;
@@ -26,8 +26,8 @@ namespace CustomNodeClass
 
     class LinkedList<T> : IEnumerable<T>
     {
-        Node<T>? Head;
-        Node<T>? Tail;
+        Node<T> Head;
+        Node<T> Tail;
         int Count;
 
         public void Add(T data)
@@ -45,8 +45,8 @@ namespace CustomNodeClass
 
         public bool Remove(T data)
         {
-            Node<T>? current = Head;
-            Node<T>? previous = null;
+            Node<T> current = Head;
+            Node<T> previous = null;
 
             while (current is not null && current.Data is not null)
             {
@@ -85,7 +85,7 @@ namespace CustomNodeClass
 
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
         {
-            Node<T>? current = Head;
+            Node<T> current = Head;
             while (current is not null)
             {
                 yield return current.Data;
